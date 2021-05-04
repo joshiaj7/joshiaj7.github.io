@@ -45,14 +45,16 @@ a, a:hover {
 
 .job-location, 
 .job-duration, 
-.job-stacks, 
+.job-stack, 
 .edu-faculty, 
 .edu-location, 
 .edu-duration, 
 .edu-score,
 .certification-date,
 .achievement-date,
-.project-desc {
+.project-stack,
+.course-issue,
+.course-date {
     opacity: 50%;
     margin: 3px 0;
     transition: .5s;
@@ -60,14 +62,16 @@ a, a:hover {
 
 .job-location:hover, 
 .job-duration:hover, 
-.job-stacks:hover,
+.job-stack:hover,
 .edu-faculty:hover, 
 .edu-location:hover, 
 .edu-duration:hover, 
 .edu-score:hover,
 .certification-date:hover,
 .achievement-date:hover,
-.project-desc:hover {
+.project-stack:hover,
+.course-issue:hover,
+.course-date:hover {
     opacity: 100%;
     transition: .5s;
 }
@@ -84,3 +88,6 @@ a, a:hover {
     padding: 0;
 }
 
+.project-row {
+    margin-bottom: 20px;
+}
