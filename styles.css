@@ -91,3 +91,12 @@ a, a:hover {
 .project-row {
     margin-bottom: 20px;
 }
+
+.footer {
+    margin-top: 30px;
+}
+
+#copyright {
+    font-size: small;
+    align-items: right;
+}
